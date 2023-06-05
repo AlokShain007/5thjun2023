@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+
+@media only screen and ( max-width:1200px) {
+	
+/*book appointment form css start*/
+.book_appointment .form-group input { float:left; width:46%; border-radius:0px; border:#CCC 1px solid; margin:0 14px 14px 0; } 
+.book_appointment .form-group textarea { width:94%; border:#CCC 1px solid; border-radius:0px; } 
+.book_appointment .form-group input.code { float:left; width:48%; border-radius:none; border:#CCCCCC 1px solid; }
+.book_appointment .captcha { float:left; position:absolute; left:0; margin-left:250px; margin-top:10px; }
+/*book appointment form css end*/
+
+/*header css start*/
+.phone {  padding:10px 10px; font-size:14px; }
+.post_cv { padding:10px 10px; font-size:14px; }
+/*header css end*/
+
+}
+
+@media only screen and ( max-width:960px) {
+
+/*top links css start*/
+.top_main { text-align:center;}
+.top_link { width:43%; margin:0px auto; margin-top:10px;}
+.top_link li { float:left; text-align:center;  }
+.social{ width:43%; margin:0px auto; }
+/*top links css end*/
+
+/*top links css end*/
+.logo { margin:0px auto; text-align:center; }
+.phone { margin:0px auto; text-align:center; background-color:#24476B; margin-top:14px; padding:5px; border:#1E9E00 1px solid; float:none; font-size:16px; }
+.post_cv { padding:5px; font-size:14px; }
+.excellence img { margin-left:0px; display:inline; }
+/*top links css end*/
+
+/*top links css end*/
+.callback_inner .form-group input.code {  width:50%; }
+/*top links css end*/
+
+/*book appointment form css start*/
+.book_appointment .form-group textarea { width:95%; border:#CCC 1px solid; border-radius:0px; } 
+.book_appointment .captcha { float:left; position:absolute; left:0; margin-left:170px; margin-top:10px; }
+/*book appointment form css end*/
+
+}
+
+@media only screen and ( max-width:768px) {
+
+/*top links css start*/
+.top_main { text-align:center;}
+.top_link { width:43%; margin:0px auto; margin-top:10px;}
+.top_link li { float:left; text-align:center; margin-bottom:10px;  }
+.social{ width:38%; margin:0px auto; margin-top:10px; }
+/*top links css end*/
+
+/*top links css end*/
+.logo { width:70%; margin:0px auto; text-align:center; }
+.phone { width:70%; margin:0px auto; text-align:center; background-color:#24476B; margin-top:14px; padding:10px 20px; border:#1E9E00 1px solid; float:none; font-size:20px; }
+
+.post_cv { width:70%; margin:0px auto;  padding:10px 20px; float:none; font-size:20px; font-weight:400; text-align:center; margin-top:10px; }
+
+.excellence img { margin-left:0px; text-align:center; margin:0px auto; }
+/*top links css end*/
+
+.bottom .bott3  { margin-top:10px;}
+
+/*footer css end*/
+.footer { text-align:center; line-height:30px;}
+/*footer css end*/
+
+.services { width:85%; margin:0px auto;}
+
+/*callback form css start*/
+.book_appointment .form-group input {  width:100%; } 
+.book_appointment .form-group textarea { width:100%;  } 
+/*callback form css end*/
+
+/*find job css start*/
+.find_job .text .blue_but { float:none; }
+/*find job css end*/
+}
+
+@media only screen and ( max-width:480px) {
+
+/*top links css start*/
+.top_main { text-align:center;}
+.top_link { width:66%; margin:0px auto; margin-top:10px;}
+.top_link li { float:left; text-align:center; margin-bottom:10px;  }
+.social{ width:50%; margin:0px auto; margin-top:10px; }
+/*top links css end*/
+
+/*top links css end*/
+.logo { width:90%; margin:0px auto; text-align:center; }
+.phone { width:90%; margin:0px auto; text-align:center; font-size:16px; }
+.post_cv { width:90%; margin:0px auto; font-size:16px; margin-top:10px; }
+.excellence img { width:25%; margin-bottom:10px; }
+/*top links css end*/
+
+/*weldiv css start*/
+.wel h1 { font-size:24px;}
+/*weldiv css end*/
+
+.we_do { width:80%; margin:0px auto; padding:40px 0; text-align:center; }
+
+.callback { margin-top:10px; }
+
+.services { width:100%; margin:0px auto;}
+
+/*book appointment form css start*/
+.book_appointment .captcha { float:left; position:absolute; left:0; margin-left:95px; margin-top:10px; }
+/*book appointment form css end*/
+
+}
+
+@media only screen and ( max-width:320px) {
+
+/*top links css start*/
+.top_main { text-align:center;}
+.top_link { width:86%; margin:0px auto; margin-top:10px;}
+.top_link li { float:left; text-align:center; margin-bottom:10px;  }
+.social{ width:70%; margin:0px auto; margin-top:10px; }
+/*top links css end*/
+
+.phone { width:98%; margin:0px auto; text-align:center; font-size:14px; padding:5px 5px 5px 5px; font-weight:bold; }
+.post_cv { width:98%; margin:0px auto; text-align:center; font-size:14px; padding:5px 5px 5px 5px; font-weight:bold; margin-top:10px; }
+
+.wel .text { font-size:12px;}
+
+/*book appointment form css start*/
+.book_appointment .form-group input.code { float:left; width:98%; border-radius:none; border:#CCCCCC 1px solid; }
+.book_appointment .captcha { float:left; position:absolute; left:0; margin-left:160px; margin-top:10px; }
+/*book appointment form css end*/
+
+}
